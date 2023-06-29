@@ -13,11 +13,13 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry excluding="resources/|java/|webapp/|webapp/css/" kind="src" path="src/main"/>
-	<classpathentry excluding="main/resources/|test/java/|main/java/|main/|main/webapp/|main/webapp/css/" kind="src" path="src"/>
-	<classpathentry kind="src" path="application.properties"/>
-	<classpathentry excluding="css/" kind="src" path="src/main/webapp"/>
+	<classpathentry excluding="css/|WEB-INF/views/|WEB-INF/views/|WEB-INF/views/employees/|WEB-INF/views/error/|WEB-INF/views/layout/" kind="src" path="src/main/webapp"/>
 	<classpathentry kind="src" path="src/main/webapp/css"/>
+	<classpathentry kind="src" path="src/main/webapp/WEB-INF/views/employees"/>
+	<classpathentry kind="src" path="src/main/webapp/WEB-INF/views/error"/>
+	<classpathentry kind="src" path="src/main/webapp/WEB-INF/views/layout"/>
+	<classpathentry excluding="main/resources/|test/java/|main/java/|main/webapp/|main/webapp/css/|main/webapp/WEB-INF/views/|main/webapp/WEB-INF/views/employees/|main/webapp/WEB-INF/views/error/|main/webapp/WEB-INF/views/layout/|main/" kind="src" path="src"/>
+	<classpathentry excluding="resources/|java/|webapp/|webapp/css/|webapp/WEB-INF/views/|webapp/WEB-INF/views/employees/|webapp/WEB-INF/views/error/|webapp/WEB-INF/views/layout/" kind="src" path="src/main"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
